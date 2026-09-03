@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — My Pixel Pics</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card: #ffffff;
+      --ink: #16181d;
+      --muted: #5b6270;
+      --line: #e2e6ec;
+      --accent: #0a84ff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101218;
+        --card: #1a1d25;
+        --ink: #edeff3;
+        --muted: #9aa2b1;
+        --line: #2c303a;
+        --accent: #4aa3ff;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 48px 20px 72px; }
+    header { text-align: center; margin-bottom: 40px; }
+    .pixrow { display: inline-flex; gap: 5px; margin-bottom: 18px; }
+    .pixrow i { width: 14px; height: 14px; display: block; border-radius: 2px; }
+    .pixrow i:nth-child(1){ background:#e5484d; }
+    .pixrow i:nth-child(2){ background:#f5a524; }
+    .pixrow i:nth-child(3){ background:#46a758; }
+    .pixrow i:nth-child(4){ background:#3b82f6; }
+    .pixrow i:nth-child(5){ background:#8e4ec6; }
+    h1 { font-size: 1.9rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+    .sub { color: var(--muted); margin: 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px 26px;
+      margin-bottom: 20px;
+    }
+    h2 { font-size: 1.15rem; margin: 0 0 12px; }
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+    a { color: var(--accent); }
+    .contact {
+      display: inline-block;
+      margin-top: 6px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 12px 22px;
+      border-radius: 12px;
+    }
+    .faq h3 { font-size: 1rem; margin: 20px 0 4px; }
+    .faq h3:first-of-type { margin-top: 0; }
+    .faq p { color: var(--muted); }
+    footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 36px; }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="pixrow" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      <h1>My Pixel Pics — Support</h1>
+      <p class="sub">Turn any photo into a colour-by-number pixel artwork.</p>
+    </header>
+
+    <div class="card">
+      <h2>Get in touch</h2>
+      <p>Have a question, found a bug, or got a suggestion? I'd love to hear from you. I aim to reply within a few days.</p>
+      <a class="contact" href="mailto:taylorjaywood@gmail.com?subject=My%20Pixel%20Pics%20Support">Email support</a>
+      <p style="margin-top:14px;">Or write to: <a href="mailto:taylorjaywood@gmail.com">taylorjaywood@gmail.com</a></p>
+    </div>
+
+    <div class="card faq">
+      <h2>Frequently asked questions</h2>
+
+      <h3>How do I make a pixel artwork?</h3>
+      <p>Tap <strong>New Artwork</strong>, take a photo or choose one from your library, and it's turned into a colour-by-number grid you can fill in.</p>
+
+      <h3>How does colouring work?</h3>
+      <p>Pick a colour from the palette, then tap or drag across the matching squares. Use <strong>Hint</strong> if you get stuck, and <strong>Reveal</strong> to peek at the original photo.</p>
+
+      <h3>Can I save or share my art?</h3>
+      <p>Yes — once you're done, save it to your Photos or share it straight from the app.</p>
+
+      <h3>Are my photos private?</h3>
+      <p>Absolutely. All processing happens on your device and your photos are never uploaded to any server. See the <a href="./">Privacy Policy</a> for details.</p>
+
+      <h3>Is the app really free?</h3>
+      <p>Yes. No ads, no subscriptions, and no in-app purchases.</p>
+    </div>
+
+    <footer>
+      <p><a href="./">Privacy Policy</a></p>
+      <p>&copy; 2026 Taylor Wood</p>
+    </footer>
+  </div>
+</body>
+</html>
